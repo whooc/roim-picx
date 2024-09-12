@@ -42,8 +42,7 @@
 
 				<div class="w-full h-16 flex items-center justify-center text-gray-500 text-sm">
 					<a :href="repoLink" target="_blank" class="underline">
-						{{ repoName }}
-					</a>
+ 
 				</div>
 			</el-scrollbar>
 		</div>
@@ -56,9 +55,9 @@ import { useRouter } from 'vue-router'
 import { ElScrollbar, ElConfigProvider } from 'element-plus'
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
 
-const repoLink = 'https://roim.app'
-const repoName = 'roim-picx'
-const appName = 'PICX'
+const repoLink = 'https://img.201321.xyz'
+const repoName = 'IMG'
+const appName = 'IMG图床'
 
 document.title = appName
 
