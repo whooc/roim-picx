@@ -42,7 +42,8 @@
 
 				<div class="w-full h-16 flex items-center justify-center text-gray-500 text-sm">
 					<a :href="repoLink" target="_blank" class="underline">
- 
+						{{ repoName }}
+					</a>
 				</div>
 			</el-scrollbar>
 		</div>
@@ -63,3 +64,5 @@ document.title = appName
 
 const router = useRouter()
 </script>
+
+
